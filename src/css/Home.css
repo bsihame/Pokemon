@@ -1,0 +1,60 @@
+.homeContainer {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRNjyVCmSLcPs6hkSg75wNd5d8UAsG_k9zjzdJYMnxuyWEnrIDA");
+	background-repeat: no-repeat;
+}
+
+.welcomePage {
+	text-align: center;
+}
+.title {
+	font-size: 60px;
+	font-weight: bolder;
+	margin-top: 5%;
+}
+
+.description {
+	font-size: 40px;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.enjoy {
+	font-size: 60px;
+	margin-top: 2%;
+	font-weight: bold;
+}
+
+.inactive {
+	color: red;
+	display: flex;
+	align-items: center;
+	margin: 5px;
+	flex-direction: row;
+}
+
+.active {
+	color: green;
+	display: flex;
+	align-items: center;
+	margin: 5px;
+}
+
+@media only screen and (max-width: 780px) {
+	.welcomePage, .title {
+		width: 80%;
+
+	}
+	.welcomePage {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.welcomePage, .title {
+		width: 55%;
+	
+	}
+	.welcomePage {
+		text-align: center;
+	}
+}
