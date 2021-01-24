@@ -1,0 +1,43 @@
+.navFooterContainer {
+	background-color: rgb(18, 215, 233);
+	font-size: 25px;
+	justify-content: space-around;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.text {
+	margin: 151px;
+}
+
+.inactiveFooter {
+	color: red;
+}
+.activeFooter {
+	color: green;
+}
+
+@media only screen and(max-width: 800px) {
+	.navFooterContainer {
+		width: 90%;
+		margin: auto;
+		font-size: 20px;
+	}
+	.text {
+		font-size: 18px;
+		margin: 120px;
+	}
+}
+
+@media only screen and(max-width: 600px) {
+	.navFooterContainer {
+		width: 100%;
+		margin: auto;
+
+	}
+	.text {
+		font-size: 10px;
+		margin: 100px;
+	}
+}
+
