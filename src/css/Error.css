@@ -1,0 +1,25 @@
+.error {
+	font-size: 42px;
+	margin-block-start: 156px;
+}
+
+@media only screen and (max-width: 780px) {
+	.Error {
+		max-width: 50%;
+		min-width: 50%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.Error {
+		max-width: 75%;
+		min-width: 75%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.Error {
+		max-width: 100%;
+		min-width: 100%;
+	}
+}
