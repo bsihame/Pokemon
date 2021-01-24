@@ -2,11 +2,11 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import Home from "./components/Home";
-import Pokemon from "./components/Pokemon";
+// import Home from "./components/Home";
+// import Pokemon from "./components/Pokemon";
 // import TypeOfPokemon from "./components/TypeOfPokemon";
 
-import SelectedPokemon from "./components/SelectedPokemon";
+// import SelectedPokemon from "./components/SelectedPokemon";
 import Error from "./components/Error";
 
 import "./App.css";
@@ -17,14 +17,14 @@ function App() {
 			<NavBar />
 			<Switch>
 				<Route exact path={"/"}>
-					<Home />
+					{/* <Home /> */}
 				</Route>
 				<Route exact path={"/pokemon"}>
-					<Pokemon />
+					{/* <Pokemon /> */}
 					{/* <TypeOfPokemon /> */}
 				</Route>
 				<Route path={"/pokemon/:name"}>
-					<SelectedPokemon />
+					{/* <SelectedPokemon /> */}
 				</Route>
 				<Route
 					path="/github"
