@@ -1,10 +1,12 @@
 .navFooterContainer {
-	background-color: rgb(18, 215, 233);
+	/* background-color: rgb(18, 215, 233); */
 	font-size: 25px;
-	justify-content: space-around;
+  justify-content: space-around;
+  height: 20%;
+  position: fixed;
 	left: 0;
 	bottom: 0;
-	width: 100%;
+	/* width: 100%; */
 }
 .text {
 	margin: 151px;

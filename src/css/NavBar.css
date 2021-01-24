@@ -1,23 +1,17 @@
 nav {
-	background-color: rgb(18, 215, 233);
-	opacity: 1;
-	position: sticky;
-	top: 0;
+	background-color: #FFFF;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
-	font-size: 40px;
+	font-size: 30px;
 	align-items: center;
-	margin-bottom: 20px;
-	margin-left: -9px;
+  height: 10%;
+  
 }
 
 .navLogo {
-	background-color: rgb(241, 235, 226);
-	height: 150px;
+	height: 5rem;
 	width: 150px;
 	margin-left: 90px;
-	margin-top: -12px;
 }
 
 .navRight {
